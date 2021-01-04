@@ -6,6 +6,7 @@
 "use strict"; 
 v = "Hi!  I'm a strict mode script!";  // ERROR: Variable v is not declared
 -------------------------------------------------------------------------------
+    
 v = 15 
 function f1() { 
     // inner loop ----> will run in strict mode. 
