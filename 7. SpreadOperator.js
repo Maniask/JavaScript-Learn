@@ -6,6 +6,9 @@ copy one array into another and
 concatenate two or more arrays. 
 */
 
+------------------------------------------------------------------------------------
+Program-1
+----------
 function addThreeNumbers(a,b,c){
     return a+b+c;
 }
@@ -24,7 +27,7 @@ console.log("Copied array is : ",arr3)
 console.log("Concatenated array is : ", arr4)
 console.log("Concationation : ",...arr1,...arr2)
 
-Output
+Output- 1
 -------
 sum is : 600
 sum is  6
@@ -35,3 +38,19 @@ Concatenated array is :  [
   60, 40, 50, 60
 ]
 Concationation :  10 20 30 40 50 60
+---------------------------------------------------------------------------------
+Program- 2
+-----------
+//copy object
+let student1 ={firstName:'Mohtashim',company:'TutorialsPoint'}
+let student2 ={...student1}
+console.log(student2)
+//concatenate objects
+let student3 = {lastName:'Mohammad'}
+let student4 = {...student1,...student3}
+console.log(student4)
+
+Output- 2
+-----------
+{firstName: "Mohtashim", company: "TutorialsPoint"}
+{firstName: "Mohtashim", company: "TutorialsPoint", lastName: "Mohammad"}
