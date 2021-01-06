@@ -2,8 +2,9 @@
 
 /* 
 Spread Operator can convert the array into individual elements, 
-copy one array into another and 
-concatenate two or more arrays. 
+copy one array into another,
+concatenate two or more arrays and
+used in rest parameters also.
 */
 
 ------------------------------------------------------------------------------------
